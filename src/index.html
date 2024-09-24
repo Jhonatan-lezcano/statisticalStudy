@@ -7,10 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="heading">Statistical stydy</h1>
+    <h1 id="heading">Statistical study</h1>
     <div id="selectFileContainer">
         <input type="file" id="fileInput" accept=".csv, .xls, .xlsx">
     </div>
+    <div id="selectColumns">
+        
+    </div>
+    <br>
+    <br>
+    <div id="tableContainer">
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Column</th>
+                    <th>Mean</th>
+                    <th>Median</th>
+                    <th>Mode</th>
+                    <th>Standard deviation</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
 </body>
-<script type="text/javascript" src="../dist/app.js"></script>
+<script type="module" src="../dist/app.js"></script>
+
 </html>
